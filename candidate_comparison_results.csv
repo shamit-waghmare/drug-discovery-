@@ -1,0 +1,11 @@
+rank,candidate_id,compound_name,Target relevance,Mechanism evidence,Potency evidence,Selectivity evidence,ADME evidence,Safety evidence,Research/development evidence,Evidence completeness,total_score
+1,C-002,Isoniazid,5,5,4,2,5,3,5,5,34
+2,C-005,Bedaquiline,5,5,3,2,5,3,5,4,32
+3,C-001,Rifampicin,5,5,1,1,5,4,5,4,30
+4,C-008,Linezolid,4,5,2,2,5,3,5,4,30
+5,C-004,Ethambutol,5,5,1,1,5,3,5,4,29
+6,C-006,Delamanid,5,4,2,2,4,3,5,4,29
+7,C-007,Pretomanid,5,4,2,2,4,3,5,4,29
+8,C-003,Pyrazinamide,5,4,1,1,5,3,5,4,28
+9,C-009,Clofazimine,4,3,2,2,3,2,5,4,25
+10,C-010,Sutezolid,4,4,2,2,3,2,3,4,24

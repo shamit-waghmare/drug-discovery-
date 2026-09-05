@@ -1,0 +1,6 @@
+candidate_id,compound_name,synonyms,source_database,molecular_identifier,target,mechanism_of_action,therapeutic_area,evidence_stage,potency,selectivity,adme,safety_toxicity,supporting_publications,known_limitations,evidence_confidence,missing_information
+C-011,Test Compound A,Test A,TestDB,TEST001,Test Target,Test mechanism,Tuberculosis,Approved,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Low,Potency
+C-011,Test Compound B,Test B,TestDB,TEST002,Test Target,Test mechanism,Tuberculosis,Approved,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Low,Selectivity
+C-012,,Test C,TestDB,TEST003,Test Target,Test mechanism,Tuberculosis,Approved,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Low,Compound name
+C-013,Incomplete Compound,Test D,TestDB,TEST004,Test Target,Test mechanism,Tuberculosis,,,,,,,,,
+C-014,Invalid Stage Compound,Test E,TestDB,TEST005,Test Target,Test mechanism,Tuberculosis,INVALID_STAGE,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Low,Evidence stage
