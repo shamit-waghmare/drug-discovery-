@@ -1,362 +1,109 @@
-﻿# Shamit — New Drug Discovery Research & Candidate Compound Intelligence Foundation
+TB Drug Discovery Research and Candidate Intelligence Pipeline
 
+1. Project Overview
 
+This project develops a structured research pipeline for organizing and evaluating tuberculosis (TB) drug-discovery candidate information.
 
-## Project Overview
+It focuses on candidate compound records, evidence provenance, evidence completeness, evidence-gap identification, comparison, scoring, and retrieval.
 
+Current status: Working local research pipeline. Production integration has not yet been demonstrated.
 
+2. Project Objectives
 
-This project is a beginner-level drug discovery research and candidate compound intelligence pipeline focused on Tuberculosis (TB).
+* Maintain a structured TB candidate compound registry.
+* Organize candidate information and source evidence.
+* Support candidate identity matching.
+* Track evidence provenance.
+* Identify missing or incomplete evidence.
+* Compare candidates using documented criteria.
+* Support reproducible searches and analysis.
 
+3. Current Repository Structure
 
-
-The project demonstrates how candidate compounds can be identified, documented, compared, tested, and evaluated for evidence completeness using structured research data and a simple Python pipeline.
-
-
-
-## Research Area
-
-
-
-**Therapeutic Area:** Tuberculosis (TB)
-
-
-
-## Project Objective
-
-
-
-The objective of this project is to build a structured research workflow for:
-
-
-
-1\. Understanding the drug discovery process
-
-2\. Identifying reliable research data sources
-
-3\. Collecting information about candidate compounds
-
-4\. Comparing candidate compounds using predefined evidence criteria
-
-5\. Building a basic Python research pipeline
-
-6\. Identifying missing or incomplete evidence
-
-7\. Testing the research pipeline
-
-8\. Preparing documentation and handover material
-
-
-
-## Candidate Compounds
-
-
-
-The current research dataset contains 10 TB-related candidate compounds:
-
-
-
-| Candidate ID | Compound     |
-
-| ------------ | ------------ |
-
-| C-001        | Rifampicin   |
-
-| C-002        | Isoniazid    |
-
-| C-003        | Pyrazinamide |
-
-| C-004        | Ethambutol   |
-
-| C-005        | Bedaquiline  |
-
-| C-006        | Delamanid    |
-
-| C-007        | Pretomanid   |
-
-| C-008        | Linezolid    |
-
-| C-009        | Clofazimine  |
-
-| C-010        | Sutezolid    |
-
-
-
-## Project Structure
-
-
-
-The main project work is organized under the `phase3` directory.
-
-
+The current GitHub repository contains files primarily in its root directory.
 
 Important files include:
 
+File	Purpose
+drug_discovery_pipeline.py	Candidate retrieval and pipeline interface
+candidate_compounds.csv	Candidate compound registry
+candidate_provenance.py	Provenance processing
+calculate_scores_v2.py	Updated candidate scoring
+calculate_completeness.py	Evidence completeness calculation
+CANDIDATE_COMPOUND_REGISTRY.md	Registry documentation
+CANDIDATE_COMPARISON.md	Candidate comparison documentation
+EVIDENCE_GAP_REPORT.md	Evidence-gap documentation
+DATA_SOURCE_REGISTRY.md	Data-source documentation
+CURRENT_STATE.md	Existing implementation status
+REVIEW_PACKET.md	Project review documentation
 
+Additional phase-wise documentation and implementation files are also maintained in the repository.
 
-* `candidate_compounds.csv` — structured candidate compound dataset
+4. Pipeline Workflow
 
-* `CANDIDATE_COMPOUND_REGISTRY.md` — candidate research registry
+The intended research workflow is:
 
-* `drug_discovery_pipeline.py` — Python research pipeline
+1. Candidate data collection
+2. Canonical candidate record creation
+3. Candidate identity matching
+4. Evidence and provenance tracking
+5. Evidence completeness assessment
+6. Evidence-gap identification
+7. Candidate comparison and scoring
+8. Candidate search and retrieval
+9. Automated validation
 
-* `calculate_completeness.py` — evidence completeness checker
+5. Candidate Scoring
 
-* `PHASE5_PIPELINE.md` — Phase 5 pipeline documentation
+The documented scoring framework contains eight dimensions:
 
-* `PHASE5_TEST_RESULTS.md` — Phase 5 test results
+1. Target relevance
+2. Mechanism evidence
+3. Potency evidence
+4. Selectivity evidence
+5. ADME evidence
+6. Safety evidence
+7. Research and development evidence
+8. Evidence completeness
 
-* `PHASE6_EVIDENCE_GAP_ANALYSIS.md` — evidence-gap analysis
+Each dimension has a documented scale of 0–5, giving a maximum possible score of 40.
 
-* `EVIDENCE_GAP_TABLE.md` — evidence-gap table
+Scores are intended for structured research comparison and decision support. They do not represent clinical efficacy, established safety, regulatory approval, or scientific truth.
 
-* `EVIDENCE_GAP_PRIORITY.md` — evidence-gap priorities
+Missing evidence must be treated as an evidence gap, not automatically as negative scientific evidence.
 
-* `EVIDENCE_GAP_REPORT.md` — evidence-gap report
+6. Testing Status
 
-* `PHASE6_COMPLETE.md` — Phase 6 completion record
+A local Phase 8 test execution previously reported:
 
-* `phase4\\` — candidate comparison work
+* Total tests: 12
+* Passed: 12
+* Failed: 0
 
-* `phase7\\` — testing documentation and test data
+The test script and fresh execution evidence still need to be made available in the GitHub repository for independent reproduction.
 
+7. BIQOS Integration Readiness
 
+Potentially reusable components:
 
-## Python Pipeline
+* Candidate record structure
+* Candidate identity matching
+* Provenance tracking
+* Evidence completeness checks
+* Evidence-gap reporting
+* Candidate retrieval and filtering
+* Deterministic comparison logic
 
+Remaining work includes final repository organization, reproducible test evidence, integration contract verification, and independent integration testing.
 
+No production BIQOS deployment is claimed.
 
-The Python pipeline provides basic research-data operations:
+8. Limitations
 
+This project is a research-data organization and candidate-intelligence prototype.
 
+It does not replace scientific review, laboratory validation, clinical evaluation, safety assessment, or regulatory decision-making.
 
-* Search candidates by compound name
+9. Repository
 
-* Search candidates by synonym
-
-* Filter by therapeutic area
-
-* Filter by evidence stage
-
-* Display all candidates
-
-* Display individual candidate details
-
-* Display all candidate details
-
-* Handle invalid menu selections
-
-* Handle unknown candidate IDs
-
-* Handle searches with no matching results
-
-
-
-## Candidate Comparison
-
-
-
-Candidates were compared using an evidence-strength scoring framework.
-
-
-
-The scoring criteria were:
-
-
-
-1\. Target relevance
-
-2\. Mechanism evidence
-
-3\. Potency evidence
-
-4\. Selectivity evidence
-
-5\. ADME evidence
-
-6\. Safety evidence
-
-7\. Research/development evidence
-
-8\. Evidence completeness
-
-
-
-Each criterion uses a 0–5 evidence-strength scale.
-
-
-
-The maximum possible score is **40**.
-
-
-
-These scores represent the strength and completeness of the documented evidence. They do not represent clinical superiority, treatment recommendations, or guaranteed development success.
-
-
-
-## Evidence Gap Analysis
-
-
-
-The project identifies information that is missing, incomplete, or recorded as unknown.
-
-
-
-Examples include:
-
-
-
-* Quantitative potency information
-
-* Quantitative selectivity information
-
-* Detailed pharmacokinetic information
-
-* Detailed safety evidence
-
-* Assay-specific evidence
-
-
-
-An evidence gap does not mean that a compound has no biological activity. It means that the required evidence was not sufficiently captured in the current research dataset.
-
-
-
-## Testing
-
-
-
-Phase 7 testing covered:
-
-
-
-* CSV loading
-
-* Candidate searching
-
-* Synonym searching
-
-* Therapeutic-area filtering
-
-* Evidence-stage filtering
-
-* Candidate-detail display
-
-* Invalid candidate handling
-
-* Invalid menu input
-
-* Empty search results
-
-* Case-insensitive searches and filters
-
-* Dataset completeness
-
-* Edge cases
-
-* Missing evidence fields
-
-* Comparison with incomplete data
-
-* CSV schema validation
-
-
-
-The functional test suite recorded **16/16 PASS**.
-
-
-
-Additional completeness, edge-case, missing-evidence, incomplete-data, and CSV-schema tests also passed.
-
-
-
-## Important Limitations
-
-
-
-This project is a research and learning pipeline.
-
-
-
-It does not:
-
-
-
-* Manufacture drugs
-
-* Synthesize compounds
-
-* Perform laboratory experiments
-
-* Provide treatment recommendations
-
-* Determine clinical effectiveness
-
-* Establish clinical safety
-
-* Replace expert scientific review
-
-* Establish that one candidate is clinically superior to another
-
-
-
-Scientific conclusions depend on the quality, reliability, recency, and completeness of the underlying evidence sources.
-
-
-
-## Current Status
-
-
-
-| Phase                              | Status      |
-
-| ---------------------------------- | ----------- |
-
-| Phase 1 — Fundamentals             | COMPLETE    |
-
-| Phase 2 — Data Sources             | COMPLETE    |
-
-| Phase 3 — Candidate Research       | COMPLETE    |
-
-| Phase 4 — Candidate Comparison     | COMPLETE    |
-
-| Phase 5 — Python Pipeline          | COMPLETE    |
-
-| Phase 6 — Evidence Gap Analysis    | COMPLETE    |
-
-| Phase 7 — Testing                  | COMPLETE    |
-
-| Phase 8 — Documentation & Handover | COMPLETE |
-
-
-
-## Next Work
-
-
-
-Phase 8 documentation, verification, pipeline smoke testing, and review/handover preparation have been completed.
-
-
-
-## Project Metadata
-
-
-
-**Owner:** TMS
-
-**Research Area:** Tuberculosis (TB)
-
-**Project Type:** Drug discovery research and candidate compound intelligence
-
-**Convergence Status:** WORKING
-
-**Semantic Confidence:** High
-
-**Source Scope:** BHIV Master Directive vNEXT + SIPS Learnship Programme
-
-
-
-
-
-
-
+GitHub: https://github.com/shamit-waghmare/drug-discovery-
