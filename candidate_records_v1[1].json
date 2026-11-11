@@ -1,0 +1,333 @@
+[
+  {
+    "candidate_id": "C-001",
+    "compound_name": "Rifampicin",
+    "synonyms": "Rifampin;Rifampicin",
+    "source_database": "PubChem;PubMed",
+    "molecular_identifier": "PubChem CID 135398735; ChEMBL CHEMBL374478; CAS 13292-46-1; InChIKey JQXXHWHPUNPDRT-WLSIYKJHSA-N",
+    "target": "DNA-dependent RNA polymerase beta subunit (RpoB)",
+    "mechanism_of_action": "Inhibits bacterial DNA-dependent RNA polymerase by binding the beta subunit (RpoB), thereby blocking RNA synthesis",
+    "therapeutic_area": "Tuberculosis",
+    "evidence_stage": "Approved",
+    "potency": "UNKNOWN / NOT FOUND",
+    "selectivity": "UNKNOWN / NOT FOUND",
+    "adme": "Absorption: Readily absorbed orally; food can reduce absorption. Distribution: Widely distributed; approximately 80% protein bound. Metabolism: Hepatic deacetylation produces 25-desacetylrifampicin and enterohepatic circulation occurs. Excretion: Eliminated mainly through bile/feces, with a smaller proportion excreted in urine.",
+    "safety_toxicity": "Documented adverse effects include hepatotoxicity, gastrointestinal reactions, hypersensitivity reactions, and hematologic adverse effects. Clinically apparent liver injury is well documented but uncommon.",
+    "supporting_publications": "PMID 11290327; PMID 28392175; PMID 17037259",
+    "known_limitations": "Resistance can arise through mutations affecting the rifampicin target, particularly the RpoB/RNA-polymerase beta subunit.",
+    "evidence_confidence": "High",
+    "missing_information": "Potency; selectivity",
+    "source_evidence": {
+      "sources": [
+        "PubChem",
+        "PubMed"
+      ],
+      "evidence_summary": {
+        "supporting_publications": [
+          "PMID 11290327",
+          "PMID 28392175",
+          "PMID 17037259"
+        ],
+        "evidence_confidence": "High"
+      },
+      "limitations": "Resistance can arise through mutations affecting the rifampicin target, particularly the RpoB/RNA-polymerase beta subunit."
+    }
+  },
+  {
+    "candidate_id": "C-002",
+    "compound_name": "Isoniazid",
+    "synonyms": "INH; Isonicotinic acid hydrazide; Isonicotinohydrazide",
+    "source_database": "PubChem;ChEMBL",
+    "molecular_identifier": "PubChem CID 3767; ChEMBL CHEMBL64; CAS 54-85-3; InChIKey QRXWMOHMRWLFEY-UHFFFAOYSA-N",
+    "target": "InhA (enoyl-ACP reductase) after activation by the mycobacterial KatG catalase-peroxidase",
+    "mechanism_of_action": "Isoniazid is a prodrug activated by mycobacterial KatG; the activated species forms an NAD adduct that inhibits InhA and disrupts mycolic-acid synthesis.",
+    "therapeutic_area": "Tuberculosis",
+    "evidence_stage": "Approved",
+    "potency": "Minimal tuberculostatic concentration reported as 0.025–0.05 µg/mL; experimental context should be considered before comparison with other potency measurements.",
+    "selectivity": "High antimicrobial specificity toward susceptible mycobacteria is reported; a quantitative cross-target selectivity profile was not established in this extraction.",
+    "adme": "Absorption: rapidly and almost completely absorbed orally; food can reduce absorption. Distribution: diffuses widely into body fluids and cells, including cerebrospinal fluid. Metabolism: primarily hepatic acetylation involving NAT2, with acetylator phenotype affecting disposition. Excretion: predominantly renal, with most of a dose excreted in urine as unchanged drug and metabolites.",
+    "safety_toxicity": "Important safety concerns include hepatotoxicity and peripheral neuropathy; other adverse reactions and drug interactions are documented in pharmacological and regulatory sources.",
+    "supporting_publications": "PubChem CID 3767; PubChem/ChEMBL annotations",
+    "known_limitations": "Resistance can arise through mutations affecting the drug-activation pathway or target; variability in NAT2 acetylation also contributes to differences in disposition.",
+    "evidence_confidence": "High",
+    "missing_information": "Detailed quantitative selectivity profile; additional assay-specific potency measurements",
+    "source_evidence": {
+      "sources": [
+        "PubChem",
+        "ChEMBL"
+      ],
+      "evidence_summary": {
+        "supporting_publications": [
+          "PubChem CID 3767",
+          "PubChem/ChEMBL annotations"
+        ],
+        "evidence_confidence": "High"
+      },
+      "limitations": "Resistance can arise through mutations affecting the drug-activation pathway or target; variability in NAT2 acetylation also contributes to differences in disposition."
+    }
+  },
+  {
+    "candidate_id": "C-003",
+    "compound_name": "Pyrazinamide",
+    "synonyms": "PZA; Pyrazine-2-carboxamide; Pyrazinecarboxamide; Aldinamide",
+    "source_database": "PubChem;PubMed",
+    "molecular_identifier": "PubChem CID 1046; CAS 98-96-4",
+    "target": "Multiple reported molecular targets/pathways; PanD (aspartate decarboxylase) and RpsA (ribosomal protein S1) have been implicated, while PncA is responsible for activation of the prodrug",
+    "mechanism_of_action": "Pyrazinamide is converted by the mycobacterial PncA pyrazinamidase to pyrazinoic acid (POA). POA has been reported to disrupt membrane energetics and transport and to affect pathways including coenzyme A biosynthesis and trans-translation. The exact overall mechanism remains complex.",
+    "therapeutic_area": "Tuberculosis",
+    "evidence_stage": "Approved",
+    "potency": "UNKNOWN / NOT FOUND",
+    "selectivity": "A quantitative cross-target selectivity profile was not established in this extraction.",
+    "adme": "Absorption: rapidly absorbed after oral administration. Distribution: widely distributed into body tissues and fluids. Metabolism: converted to pyrazinoic acid and further metabolized. Excretion: predominantly renal, with metabolites and unchanged drug eliminated in urine.",
+    "safety_toxicity": "Important safety evidence includes hepatotoxicity and elevations of serum aminotransferases; other adverse effects are documented in pharmacological and regulatory sources.",
+    "supporting_publications": "PMID 25746054; PMID 14563891; PMID 25530919; PMID 31953389; PMID 26038753",
+    "known_limitations": "The mechanism of action is complex and has historically been incompletely resolved. Resistance is strongly associated with mutations in pncA, while mutations affecting other pathways including rpsA and panD have also been reported.",
+    "evidence_confidence": "High",
+    "missing_information": "Quantitative potency; quantitative selectivity; detailed assay-specific evidence",
+    "source_evidence": {
+      "sources": [
+        "PubChem",
+        "PubMed"
+      ],
+      "evidence_summary": {
+        "supporting_publications": [
+          "PMID 25746054",
+          "PMID 14563891",
+          "PMID 25530919",
+          "PMID 31953389",
+          "PMID 26038753"
+        ],
+        "evidence_confidence": "High"
+      },
+      "limitations": "The mechanism of action is complex and has historically been incompletely resolved. Resistance is strongly associated with mutations in pncA, while mutations affecting other pathways including rpsA and panD have also been reported."
+    }
+  },
+  {
+    "candidate_id": "C-004",
+    "compound_name": "Ethambutol",
+    "synonyms": "EMB; Ethambutol hydrochloride",
+    "source_database": "PubChem",
+    "molecular_identifier": "PubChem CID 14052; CAS 74-55-5",
+    "target": "Arabinosyltransferases (EmbCAB complex)",
+    "mechanism_of_action": "Inhibits mycobacterial arabinosyltransferases involved in arabinan biosynthesis, disrupting mycobacterial cell-wall formation",
+    "therapeutic_area": "Tuberculosis",
+    "evidence_stage": "Approved",
+    "potency": "UNKNOWN / NOT FOUND",
+    "selectivity": "UNKNOWN / NOT FOUND",
+    "adme": "Absorption: well absorbed orally. Distribution: widely distributed and penetrates several tissues and body fluids. Metabolism: limited metabolism. Excretion: predominantly renal, with substantial unchanged drug eliminated in urine.",
+    "safety_toxicity": "Important safety concern is optic toxicity, including visual-acuity and color-vision disturbances; renal impairment can increase exposure.",
+    "supporting_publications": "PubChem CID 14052",
+    "known_limitations": "Optic toxicity limits the safety profile; resistance can occur through changes involving embCAB and related pathways.",
+    "evidence_confidence": "High",
+    "missing_information": "Quantitative potency; quantitative selectivity; detailed assay-specific evidence",
+    "source_evidence": {
+      "sources": [
+        "PubChem"
+      ],
+      "evidence_summary": {
+        "supporting_publications": [
+          "PubChem CID 14052"
+        ],
+        "evidence_confidence": "High"
+      },
+      "limitations": "Optic toxicity limits the safety profile; resistance can occur through changes involving embCAB and related pathways."
+    }
+  },
+  {
+    "candidate_id": "C-005",
+    "compound_name": "Bedaquiline",
+    "synonyms": "BDQ; TMC207; R207910",
+    "source_database": "PubChem;WHO",
+    "molecular_identifier": "PubChem CID 5388906; CAS 843663-66-1",
+    "target": "Mycobacterial ATP synthase (AtpE)",
+    "mechanism_of_action": "Inhibits the mycobacterial ATP synthase, reducing ATP production and impairing mycobacterial energy metabolism",
+    "therapeutic_area": "Tuberculosis",
+    "evidence_stage": "Approved",
+    "potency": "UNKNOWN / NOT FOUND",
+    "selectivity": "UNKNOWN / NOT FOUND",
+    "adme": "Absorption: orally absorbed with substantial interindividual variability. Distribution: extensive tissue distribution and high protein binding. Metabolism: primarily hepatic metabolism involving CYP3A4. Excretion: predominantly through fecal/biliary routes.",
+    "safety_toxicity": "Important safety considerations include QT-interval prolongation and hepatotoxicity; regulatory safety monitoring is required.",
+    "supporting_publications": "WHO TB research and innovation; PubChem CID 5388906",
+    "known_limitations": "Long terminal half-life and drug-interaction potential; resistance can arise through changes affecting ATP synthase and other resistance-associated mechanisms.",
+    "evidence_confidence": "High",
+    "missing_information": "Quantitative potency; quantitative selectivity; detailed human PK values; detailed safety extraction",
+    "source_evidence": {
+      "sources": [
+        "PubChem",
+        "WHO"
+      ],
+      "evidence_summary": {
+        "supporting_publications": [
+          "WHO TB research and innovation",
+          "PubChem CID 5388906"
+        ],
+        "evidence_confidence": "High"
+      },
+      "limitations": "Long terminal half-life and drug-interaction potential; resistance can arise through changes affecting ATP synthase and other resistance-associated mechanisms."
+    }
+  },
+  {
+    "candidate_id": "C-006",
+    "compound_name": "Delamanid",
+    "synonyms": "OPC-67683",
+    "source_database": "PubChem;WHO",
+    "molecular_identifier": "PubChem CID 6480466; CAS 681492-22-8",
+    "target": "Mycobacterial nitroimidazole activation pathway involving F420-dependent enzymes",
+    "mechanism_of_action": "A nitroimidazole prodrug activated by mycobacterial F420-dependent enzymes; active metabolites interfere with mycobacterial cell-envelope lipid synthesis, including methoxy-mycolic and ketomycolic acid production",
+    "therapeutic_area": "Tuberculosis",
+    "evidence_stage": "Approved",
+    "potency": "UNKNOWN / NOT FOUND",
+    "selectivity": "UNKNOWN / NOT FOUND",
+    "adme": "Absorption: oral absorption is influenced by food. Distribution: highly protein bound. Metabolism: extensive metabolism, including CYP3A4 involvement. Excretion: mainly through fecal routes.",
+    "safety_toxicity": "QT-interval prolongation is an important safety consideration; gastrointestinal and other adverse effects are documented.",
+    "supporting_publications": "WHO TB research and innovation; PubChem",
+    "known_limitations": "Resistance may involve alterations in the nitroreductase/F420 activation pathway; QT prolongation is an important limitation.",
+    "evidence_confidence": "High",
+    "missing_information": "Quantitative potency; quantitative selectivity; detailed assay-specific safety evidence",
+    "source_evidence": {
+      "sources": [
+        "PubChem",
+        "WHO"
+      ],
+      "evidence_summary": {
+        "supporting_publications": [
+          "WHO TB research and innovation",
+          "PubChem"
+        ],
+        "evidence_confidence": "High"
+      },
+      "limitations": "Resistance may involve alterations in the nitroreductase/F420 activation pathway; QT prolongation is an important limitation."
+    }
+  },
+  {
+    "candidate_id": "C-007",
+    "compound_name": "Pretomanid",
+    "synonyms": "PA-824",
+    "source_database": "PubChem;WHO",
+    "molecular_identifier": "PubChem CID 45618431; CAS 1226881-19-1",
+    "target": "Mycobacterial nitroimidazole activation pathways",
+    "mechanism_of_action": "A nitroimidazole prodrug activated within Mycobacterium tuberculosis; active metabolites contribute to inhibition of mycolic-acid synthesis and generation of reactive nitrogen species under appropriate conditions",
+    "therapeutic_area": "Tuberculosis",
+    "evidence_stage": "Approved",
+    "potency": "UNKNOWN / NOT FOUND",
+    "selectivity": "UNKNOWN / NOT FOUND",
+    "adme": "Absorption: orally absorbed and affected by food. Distribution: systemic distribution with substantial protein binding. Metabolism: hepatic metabolism contributes to clearance. Excretion: eliminated mainly through fecal and urinary routes as metabolites.",
+    "safety_toxicity": "Important safety considerations include hepatotoxicity and potential reproductive toxicity; safety depends on the clinical regimen and population studied.",
+    "supporting_publications": "WHO TB research and innovation; PubChem",
+    "known_limitations": "Resistance can arise through alterations in nitroimidazole activation pathways and other resistance-associated mechanisms; evidence is strongly regimen-dependent.",
+    "evidence_confidence": "High",
+    "missing_information": "Quantitative potency; quantitative selectivity; detailed PK/safety extraction",
+    "source_evidence": {
+      "sources": [
+        "PubChem",
+        "WHO"
+      ],
+      "evidence_summary": {
+        "supporting_publications": [
+          "WHO TB research and innovation",
+          "PubChem"
+        ],
+        "evidence_confidence": "High"
+      },
+      "limitations": "Resistance can arise through alterations in nitroimidazole activation pathways and other resistance-associated mechanisms; evidence is strongly regimen-dependent."
+    }
+  },
+  {
+    "candidate_id": "C-008",
+    "compound_name": "Linezolid",
+    "synonyms": "LZD",
+    "source_database": "PubChem;WHO",
+    "molecular_identifier": "PubChem CID 441401; CAS 165800-03-3",
+    "target": "Bacterial 50S ribosomal subunit",
+    "mechanism_of_action": "Binds the bacterial 50S ribosomal subunit and inhibits protein synthesis",
+    "therapeutic_area": "Tuberculosis",
+    "evidence_stage": "Repurposed/Approved",
+    "potency": "UNKNOWN / NOT FOUND",
+    "selectivity": "UNKNOWN / NOT FOUND",
+    "adme": "Absorption: nearly complete oral bioavailability. Distribution: widely distributed with substantial protein binding. Metabolism: primarily non-CYP oxidative metabolism. Excretion: metabolites are eliminated mainly through urine, with some unchanged drug excreted.",
+    "safety_toxicity": "Important adverse effects include myelosuppression and peripheral or optic neuropathy, particularly with prolonged exposure; lactic acidosis is also recognized.",
+    "supporting_publications": "WHO TB research and innovation; PubChem CID 441401",
+    "known_limitations": "Duration-related toxicity can limit use; resistance may arise through mutations affecting the 23S rRNA target or ribosomal proteins.",
+    "evidence_confidence": "High",
+    "missing_information": "TB-specific quantitative potency; quantitative selectivity; detailed TB safety evidence",
+    "source_evidence": {
+      "sources": [
+        "PubChem",
+        "WHO"
+      ],
+      "evidence_summary": {
+        "supporting_publications": [
+          "WHO TB research and innovation",
+          "PubChem CID 441401"
+        ],
+        "evidence_confidence": "High"
+      },
+      "limitations": "Duration-related toxicity can limit use; resistance may arise through mutations affecting the 23S rRNA target or ribosomal proteins."
+    }
+  },
+  {
+    "candidate_id": "C-009",
+    "compound_name": "Clofazimine",
+    "synonyms": "CFZ; Lamprene",
+    "source_database": "PubChem;WHO",
+    "molecular_identifier": "PubChem CID 2794; CAS 2030-63-9",
+    "target": "Mycobacterial membrane/respiratory processes",
+    "mechanism_of_action": "A lipophilic riminophenazine with antimycobacterial activity involving membrane-associated and respiratory effects; the complete mechanism remains incompletely resolved",
+    "therapeutic_area": "Tuberculosis",
+    "evidence_stage": "Repurposed/Approved",
+    "potency": "UNKNOWN / NOT FOUND",
+    "selectivity": "UNKNOWN / NOT FOUND",
+    "adme": "Absorption: variable oral absorption and increased absorption with food. Distribution: highly lipophilic with extensive tissue accumulation. Metabolism: hepatic metabolism contributes to clearance. Excretion: elimination is slow, with prolonged persistence in tissues.",
+    "safety_toxicity": "Skin discoloration is characteristic; gastrointestinal adverse effects and QT-interval prolongation are important safety considerations.",
+    "supporting_publications": "WHO TB research and innovation; PubChem CID 2794",
+    "known_limitations": "Very long persistence in tissues and skin discoloration; mechanism and resistance biology are more complex than a single-target model.",
+    "evidence_confidence": "High",
+    "missing_information": "Quantitative potency; quantitative selectivity; detailed human PK/safety extraction",
+    "source_evidence": {
+      "sources": [
+        "PubChem",
+        "WHO"
+      ],
+      "evidence_summary": {
+        "supporting_publications": [
+          "WHO TB research and innovation",
+          "PubChem CID 2794"
+        ],
+        "evidence_confidence": "High"
+      },
+      "limitations": "Very long persistence in tissues and skin discoloration; mechanism and resistance biology are more complex than a single-target model."
+    }
+  },
+  {
+    "candidate_id": "C-010",
+    "compound_name": "Sutezolid",
+    "synonyms": "PNU-100480",
+    "source_database": "PubChem;WHO",
+    "molecular_identifier": "PubChem CID 9806098; CAS 168828-82-8",
+    "target": "Bacterial 50S ribosomal subunit",
+    "mechanism_of_action": "An oxazolidinone antibacterial that inhibits bacterial protein synthesis through interaction with the 50S ribosomal subunit",
+    "therapeutic_area": "Tuberculosis",
+    "evidence_stage": "Investigational — Phase II",
+    "potency": "UNKNOWN / NOT FOUND",
+    "selectivity": "UNKNOWN / NOT FOUND",
+    "adme": "ADME evidence is under clinical investigation; published pharmacokinetic data are available from development studies but require assay- and population-specific interpretation.",
+    "safety_toxicity": "Clinical development includes evaluation of safety and tolerability; the safety database is less mature than for established TB medicines.",
+    "supporting_publications": "WHO TB research and innovation",
+    "known_limitations": "Investigational status means the clinical evidence base is less mature; quantitative efficacy and long-term safety evidence remain incomplete.",
+    "evidence_confidence": "Moderate",
+    "missing_information": "Quantitative potency; quantitative selectivity; complete human ADME; mature safety evidence",
+    "source_evidence": {
+      "sources": [
+        "PubChem",
+        "WHO"
+      ],
+      "evidence_summary": {
+        "supporting_publications": [
+          "WHO TB research and innovation"
+        ],
+        "evidence_confidence": "Moderate"
+      },
+      "limitations": "Investigational status means the clinical evidence base is less mature; quantitative efficacy and long-term safety evidence remain incomplete."
+    }
+  }
+]
